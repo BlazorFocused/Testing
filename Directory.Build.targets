@@ -1,7 +1,7 @@
 <Project>
 
   <PropertyGroup Label="NuGet Metadata">
-    <Authors>BlazorFocused</Authors>
+    <Authors>Ken Swan</Authors>
     <Copyright>Copyright (c) 2023 BlazorFocused</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
