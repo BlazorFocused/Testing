@@ -15,6 +15,8 @@ on:
 
 jobs:
   docs:
+    permissions:
+      contents: write
     uses: ./.github/workflows/template-release-docs.yml
     with:
       name: "BlazorFocused.Testing Documentation"

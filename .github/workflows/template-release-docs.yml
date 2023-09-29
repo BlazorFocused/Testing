@@ -28,8 +28,6 @@ jobs:
   release-docs:
     name: ${{ inputs.name }}
     runs-on: windows-latest
-    permissions:
-      contents: write
 
     env:
       documentation-directory: Documentation
