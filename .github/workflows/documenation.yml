@@ -11,10 +11,11 @@ on:
       - main
     paths:
       - "docs/**"
-  workflow_dispatch:
 
 jobs:
   docs:
+    permissions:
+      contents: write
     uses: ./.github/workflows/template-release-docs.yml
     with:
       name: "BlazorFocused.Testing Documentation"
