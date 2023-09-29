@@ -1,0 +1,22 @@
+<Project>
+
+  <PropertyGroup Label="NuGet Metadata">
+    <Authors>BlazorFocused</Authors>
+    <Copyright>Copyright (c) 2023 BlazorFocused</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://BlazorFocused.github.io/Testing/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BlazorFocused/Testing.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>See https://github.com/BlazorFocused/Testing/releases</PackageReleaseNotes>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <PackageIcon>BlazorFocused.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup Label="NuGet Artifacts">
+    <None Include="..\..\..\BlazorFocused.png" Pack="true" PackagePath="\" Visible="false"  />
+    <None Include="..\README.md" Pack="true" PackagePath="\" Visible="false"/>
+  </ItemGroup>
+
+</Project>

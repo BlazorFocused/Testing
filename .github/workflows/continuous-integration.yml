@@ -1,0 +1,67 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "docs/**"
+      - "**/README.md"
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - "docs/**"
+      - "**/README.md"
+  release:
+    types:
+      - published
+
+jobs:
+  build-http:
+    uses: ./.github/workflows/template-build-test-project.yml
+    with:
+      name: "BlazorFocused.Testing.Http Build"
+      source-directory: ./src/Http/src
+      source-project: BlazorFocused.Testing.Http.csproj
+      test-directory: ./src/Http/test
+      test-project: BlazorFocused.Testing.Http.Test.csproj
+
+  build-logging:
+    uses: ./.github/workflows/template-build-test-project.yml
+    with:
+      name: "BlazorFocused.Testing.Logging Build"
+      source-directory: ./src/Logging/src
+      source-project: BlazorFocused.Testing.Logging.csproj
+      test-directory: ./src/Logging/test
+      test-project: BlazorFocused.Testing.Logging.Test.csproj
+
+  build-samples:
+    uses: ./.github/workflows/template-build-test-solution.yml
+    with:
+      name: "BlazorFocused.Testing Samples"
+      working-directory: ./samples
+
+  release-http:
+    needs: [build-http, build-samples]
+    if: github.event_name == 'release'
+    uses: ./.github/workflows/template-release-nuget-package.yml
+    with:
+      name: "Publish BlazorFocused.Testing.Http"
+      source-project-path: ./Http/src/BlazorFocused.Testing.Http.csproj
+      source-release-path: ./Http/src/bin/Release
+      working-directory: ./src
+      version: ${{ github.event.release.tag_name }}
+    secrets: inherit
+
+  release-logging:
+    needs: [build-logging, build-samples]
+    if: github.event_name == 'release'
+    uses: ./.github/workflows/template-release-nuget-package.yml
+    with:
+      name: "Publish BlazorFocused.Testing.Logging"
+      source-project-path: ./Logging/src/BlazorFocused.Testing.Logging.csproj
+      source-release-path: ./Logging/src/bin/Release
+      working-directory: ./src
+      version: ${{ github.event.release.tag_name }}
+    secrets: inherit
