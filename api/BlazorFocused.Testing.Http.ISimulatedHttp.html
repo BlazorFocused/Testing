@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface ISimulatedHttp
+ | Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface ISimulatedHttp
+ | Documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/BlazorFocused.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp">
+
+
+
+  <h1 id="BlazorFocused_Testing_Http_ISimulatedHttp" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp" class="text-break">Interface ISimulatedHttp
+</h1>
+  <div class="markdown level0 summary"><p>Simulates <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a> transactions for testing
+and providing mock data</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BlazorFocused.html">BlazorFocused</a>.<a class="xref" href="BlazorFocused.Testing.html">Testing</a>.<a class="xref" href="BlazorFocused.Testing.Http.html">Http</a></h6>
+  <h6><strong>Assembly</strong>: BlazorFocused.Testing.Http.dll</h6>
+  <h5 id="BlazorFocused_Testing_Http_ISimulatedHttp_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISimulatedHttp</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BlazorFocused/Testing/new/main/apiSpec/new?filename=BlazorFocused_Testing_Http_ISimulatedHttp_DelegatingHandler.md&amp;value=---%0Auid%3A%20BlazorFocused.Testing.Http.ISimulatedHttp.DelegatingHandler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BlazorFocused/Testing/blob/main/src/Http/src/ISimulatedHttp.cs/#L18">View Source</a>
+  </span>
+  <a id="BlazorFocused_Testing_Http_ISimulatedHttp_DelegatingHandler_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.DelegatingHandler*"></a>
+  <h4 id="BlazorFocused_Testing_Http_ISimulatedHttp_DelegatingHandler" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.DelegatingHandler">DelegatingHandler</h4>
+  <div class="markdown level1 summary"><p>Handler that can be passed into <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a> for
+making simulated requests</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DelegatingHandler DelegatingHandler { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.delegatinghandler">DelegatingHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BlazorFocused/Testing/new/main/apiSpec/new?filename=BlazorFocused_Testing_Http_ISimulatedHttp_HttpClient.md&amp;value=---%0Auid%3A%20BlazorFocused.Testing.Http.ISimulatedHttp.HttpClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BlazorFocused/Testing/blob/main/src/Http/src/ISimulatedHttp.cs/#L23">View Source</a>
+  </span>
+  <a id="BlazorFocused_Testing_Http_ISimulatedHttp_HttpClient_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.HttpClient*"></a>
+  <h4 id="BlazorFocused_Testing_Http_ISimulatedHttp_HttpClient" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.HttpClient">HttpClient</h4>
+  <div class="markdown level1 summary"><p>Returns <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a> to perform requests</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">HttpClient HttpClient { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BlazorFocused/Testing/new/main/apiSpec/new?filename=BlazorFocused_Testing_Http_ISimulatedHttp_AddResponseHeader_System_String_System_String_.md&amp;value=---%0Auid%3A%20BlazorFocused.Testing.Http.ISimulatedHttp.AddResponseHeader(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BlazorFocused/Testing/blob/main/src/Http/src/ISimulatedHttp.cs/#L39">View Source</a>
+  </span>
+  <a id="BlazorFocused_Testing_Http_ISimulatedHttp_AddResponseHeader_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.AddResponseHeader*"></a>
+  <h4 id="BlazorFocused_Testing_Http_ISimulatedHttp_AddResponseHeader_System_String_System_String_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.AddResponseHeader(System.String,System.String)">AddResponseHeader(string, string)</h4>
+  <div class="markdown level1 summary"><p>Add headers to simulated response</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddResponseHeader(string key, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Response header key</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Response header value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BlazorFocused/Testing/new/main/apiSpec/new?filename=BlazorFocused_Testing_Http_ISimulatedHttp_GetRequestHeaderValues_System_Net_Http_HttpMethod_System_String_System_String_.md&amp;value=---%0Auid%3A%20BlazorFocused.Testing.Http.ISimulatedHttp.GetRequestHeaderValues(System.Net.Http.HttpMethod%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BlazorFocused/Testing/blob/main/src/Http/src/ISimulatedHttp.cs/#L32">View Source</a>
+  </span>
+  <a id="BlazorFocused_Testing_Http_ISimulatedHttp_GetRequestHeaderValues_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.GetRequestHeaderValues*"></a>
+  <h4 id="BlazorFocused_Testing_Http_ISimulatedHttp_GetRequestHeaderValues_System_Net_Http_HttpMethod_System_String_System_String_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.GetRequestHeaderValues(System.Net.Http.HttpMethod,System.String,System.String)">GetRequestHeaderValues(HttpMethod, string, string)</h4>
+  <div class="markdown level1 summary"><p>Retrieve header values under specified key for a given request</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;string&gt; GetRequestHeaderValues(HttpMethod method, string url, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a></td>
+        <td><span class="parametername">method</span></td>
+        <td><p>Http Method of which request was made</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>Url of which request was made</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Header key for values to obtain</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><p>List of header key/value pairs to verify</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BlazorFocused/Testing/new/main/apiSpec/new?filename=BlazorFocused_Testing_Http_ISimulatedHttp_Setup_System_Net_Http_HttpMethod_System_String_System_Object_.md&amp;value=---%0Auid%3A%20BlazorFocused.Testing.Http.ISimulatedHttp.Setup(System.Net.Http.HttpMethod%2CSystem.String%2CSystem.Object)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BlazorFocused/Testing/blob/main/src/Http/src/ISimulatedHttp.cs/#L48">View Source</a>
+  </span>
+  <a id="BlazorFocused_Testing_Http_ISimulatedHttp_Setup_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.Setup*"></a>
+  <h4 id="BlazorFocused_Testing_Http_ISimulatedHttp_Setup_System_Net_Http_HttpMethod_System_String_System_Object_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.Setup(System.Net.Http.HttpMethod,System.String,System.Object)">Setup(HttpMethod, string, object)</h4>
+  <div class="markdown level1 summary"><p>Begin setup for an expected http request that will be used</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISimulatedHttpSetup Setup(HttpMethod httpMethod, string url, object content = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a></td>
+        <td><span class="parametername">httpMethod</span></td>
+        <td><p>Expected <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a> of request</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>Expected absolute or relative url of request</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Expected request body</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BlazorFocused.Testing.Http.ISimulatedHttpSetup.html">ISimulatedHttpSetup</a></td>
+        <td><p>Builder for setting additional configuration to handle simulated request object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/BlazorFocused/Testing/new/main/apiSpec/new?filename=BlazorFocused_Testing_Http_ISimulatedHttp_VerifyWasCalled_System_Net_Http_HttpMethod_System_String_System_Object_.md&amp;value=---%0Auid%3A%20BlazorFocused.Testing.Http.ISimulatedHttp.VerifyWasCalled(System.Net.Http.HttpMethod%2CSystem.String%2CSystem.Object)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BlazorFocused/Testing/blob/main/src/Http/src/ISimulatedHttp.cs/#L56">View Source</a>
+  </span>
+  <a id="BlazorFocused_Testing_Http_ISimulatedHttp_VerifyWasCalled_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.VerifyWasCalled*"></a>
+  <h4 id="BlazorFocused_Testing_Http_ISimulatedHttp_VerifyWasCalled_System_Net_Http_HttpMethod_System_String_System_Object_" data-uid="BlazorFocused.Testing.Http.ISimulatedHttp.VerifyWasCalled(System.Net.Http.HttpMethod,System.String,System.Object)">VerifyWasCalled(HttpMethod, string, object)</h4>
+  <div class="markdown level1 summary"><p>Verify that the expected request parameters were made</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void VerifyWasCalled(HttpMethod httpMethod, string url = null, object content = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a></td>
+        <td><span class="parametername">httpMethod</span></td>
+        <td><p>Expected <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a> of request</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>Expected absolute or relative url of request</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Expected request body</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/BlazorFocused/Testing/new/main/apiSpec/new?filename=BlazorFocused_Testing_Http_ISimulatedHttp.md&amp;value=---%0Auid%3A%20BlazorFocused.Testing.Http.ISimulatedHttp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/BlazorFocused/Testing/blob/main/src/Http/src/ISimulatedHttp.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

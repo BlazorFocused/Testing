@@ -1,0 +1,183 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/Testing/Testing/Documentation/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Http.HttpClientBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Http.HttpClientBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Http.ISimulatedHttp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Http.ISimulatedHttp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Http.ISimulatedHttpSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Http.ISimulatedHttpSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Http.SimulatedHttpBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Http.SimulatedHttpBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Http.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Logging.ITestLogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Logging.ITestLogger-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Logging.TestLoggerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Logging.TestLoggerBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorFocused.Testing.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorFocused.Testing.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/Http/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/Http/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/Logging/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/Logging/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/BlazorFocused.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/BlazorFocused.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
